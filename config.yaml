@@ -17,7 +17,7 @@ datasets:
       normalize_unicode: "NFC"
 
   DonkeySmallOCR-Numbers-Printed-15random:
-    homepage: "https://huggingface.co/datasets/DonkeySmall/OCR-Cyrillic-Printed-8"
+    homepage: "https://disk.yandex.ru/d/gyWrRxdBGJgKlQ"
     author: "DonkeySmall"
     license: "-"
     
@@ -59,6 +59,40 @@ datasets:
     images_dir: "orig_cyrillic_example/test"
     delimiter: ","
     has_header: false
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+  YeniseiGovReports-HWR:
+    homepage: "-"
+    author: "-"
+    license: "-"
+    
+    csv: "YeniseiGovReports-HWR/val/labels.csv"
+    images_dir: "YeniseiGovReports-HWR/val/img"
+    delimiter: ","
+    has_header: True
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+  YeniseiGovReports-PRT:
+    homepage: "-"
+    author: "-"
+    license: "-"
+    
+    csv: "YeniseiGovReports-PRT/val/labels.csv"
+    images_dir: "YeniseiGovReports-PRT/val/img"
+    delimiter: ","
+    has_header: True
     image_column: 0
     text_column: 1
     encoding: "utf-8"

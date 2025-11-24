@@ -29,12 +29,33 @@
 
 ## Dataset: DonkeySmallOCR
 
-| Rank | Model | CER ↓ | WER ↓ | ACC ↑ | Trained on |
+| Avg Rank | Model | CER ↓ | WER ↓ | ACC ↑ | Trained on |
 |------|--------|--------|--------|--------|--------|
 | 1.0 | manuscript/trba_base_g1 | 0.1017 | 0.4161 | 0.6169 | No |
 | 2.6 | manuscript/trba_lite_g1 | 0.1155 | 0.4434 | 0.5812 | No |
 | 3.0 | easyocr/cyrillic_g1 | 0.4816 | 0.5733 | 0.6113 | No |
 | 4.0 | easyocr/cyrillic_g2 | 2.1286 | 1.2016 | 0.6446 | No |
 
+---
+
+## Dataset: YeniseiGovReports-HWR
+
+| Avg Rank | Model                   | CER ↓   | WER ↓   | ACC ↑  | Trained on |
+|----------|--------------------------|---------|---------|--------|------------|
+| 1.0      | manuscript/trba_base_g1 | 0.0284  | 0.1009  | 0.9054 | Yes        |
+| 2.0      | manuscript/trba_lite_g1 | 0.0359  | 0.1306  | 0.8756 | Yes        |
+| 3.33     | easyocr/cyrillic_g1     | 3.2052  | 1.4752  | 0.0233 | No         |
+| 3.67     | easyocr/cyrillic_g2     | 4.1480  | 2.1698  | 0.0441 | No         |
+
+---
+
+## Dataset: YeniseiGovReports-PRT
+
+| Avg Rank | Model                   | CER ↓   | WER ↓   | ACC ↑  | Trained on |
+|----------|--------------------------|---------|---------|--------|------------|
+| 1.0      | manuscript/trba_base_g1 | 0.0111  | 0.0392  | 0.9649 | Yes        |
+| 2.0      | manuscript/trba_lite_g1 | 0.0157  | 0.0557  | 0.9500 | Yes        |
+| 3.33     | easyocr/cyrillic_g1     | 1.8229  | 1.0918  | 0.3274 | No         |
+| 3.67     | easyocr/cyrillic_g2     | 4.0555  | 1.2718  | 0.5085 | No         |
 
 ---
