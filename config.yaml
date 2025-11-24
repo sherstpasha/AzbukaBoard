@@ -1,0 +1,73 @@
+datasets:
+  orig_cyrillic:
+    homepage: "https://www.kaggle.com/datasets/constantinwerner/cyrillic-handwriting-dataset"
+    author: "Konstantin Verner"
+    license: "CC0: Public Domain"
+    
+    csv: "orig_cyrillic/test.csv"
+    images_dir: "orig_cyrillic/test"
+    delimiter: ","
+    has_header: false
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+  DonkeySmallOCR-Numbers-Printed-15random:
+    homepage: "https://huggingface.co/datasets/DonkeySmall/OCR-Cyrillic-Printed-8"
+    author: "DonkeySmall"
+    license: "-"
+    
+    csv: "DonkeySmallOCR-Numbers-Printed-15random/gt.csv"
+    images_dir: "DonkeySmallOCR-Numbers-Printed-15random/images"
+    delimiter: ","
+    has_header: True
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+  school_notebooks_RU:
+    homepage: "https://huggingface.1319lm.top/datasets/ai-forever/school_notebooks_RU"
+    author: "ai-forever"
+    license: "-"
+    
+    csv: "school_notebooks_RU/val_converted.csv"
+    images_dir: "school_notebooks_RU/val"
+    delimiter: ","
+    has_header: True
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+  orig_cyrillic_example:
+    homepage: "https://www.kaggle.com/datasets/constantinwerner/cyrillic-handwriting-dataset"
+    author: "Konstantin Verner"
+    license: "CC0: Public Domain"
+    
+    csv: "orig_cyrillic_example/test.csv"
+    images_dir: "orig_cyrillic_example/test"
+    delimiter: ","
+    has_header: false
+    image_column: 0
+    text_column: 1
+    encoding: "utf-8"
+
+    normalize:
+      lowercase: true
+      normalize_unicode: "NFC"
+
+metrics:
+  - cer
+  - wer
+  - accuracy
