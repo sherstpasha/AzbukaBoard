@@ -1,0 +1,11 @@
+Final_Rank,Model,CER,WER,Accuracy,Average_Rank
+1,dialecticstackmixDomino,0.0987,0.303,0.7071,1.0
+2,dialecticDomino,0.1046,0.3169,0.6899,2.0
+3,trocr_ru_1700s,0.1147,0.354,0.6655,3.3333
+4,trba_base_g1,0.1113,0.359,0.6492,4.0
+5,trba_lite_g1,0.1191,0.3617,0.6508,4.6667
+6,trocr_ru_kazars24,0.1476,0.4427,0.5718,6.3333
+7,trocr_ru_base_rxt,0.1563,0.458,0.608,6.6667
+8,trocr_cyrillic_hw,0.3312,0.7123,0.3634,8.0
+9,cyrillic_g1,1.0165,1.1507,0.0044,9.0
+10,cyrillic_g2,1.0568,1.7248,0.0042,10.0

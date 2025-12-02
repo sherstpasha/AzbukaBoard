@@ -89,7 +89,7 @@ def evaluate_datasets(config_path, submission_path, data_root):
         csv_path = os.path.join(data_root, ds["csv"])
 
         if not os.path.exists(csv_path):
-            print(f"[WARN] GT CSV not found → skipping dataset: {csv_path}")
+            print(f"[WARN] GT CSV not found -> skipping dataset: {csv_path}")
             continue
 
         gt = load_gt(
